@@ -20,4 +20,9 @@ public class JavaQuestController {
     public List<String> getAlunos() {
         return javaQuestService.ListaAlunos();
     }
+
+    @GetMapping("/listaNumeros")
+    public List<Integer> getNumeros() {
+        return javaQuestService.ListaDeNumeros();
+    }
 }
