@@ -9,5 +9,4 @@ public class JavaquestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(JavaquestApplication.class, args);
 	}
-
 }
